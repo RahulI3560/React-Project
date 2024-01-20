@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.addTaskmethod {
+  height: 30vh;
+  background-color: burlywood;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listmethod {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.taskmethod {
+  width: 499px;
+  height: 49px;
+  display: flex;
+  margin: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task button {
+  width: auto;
+  height: 19px;
+  margin-left: 4px;
+  text-align: center;
+}
+input{
+  border-radius: 50px;
+  height: 40px;
+  width: 300px;
+  border-color: chartreuse;
+}
+button{
+  border-radius: 40px;
+  height: 30px;
+  width: 100px;
+  background-color: orangered;
+  border-color: white;
+  color: white;
+}
